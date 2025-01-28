@@ -1,7 +1,6 @@
-a = input("Please enter integer")
-def calculate(a):
-    calculate = a + aa + aaa
-    print("sum will be" + calculate)
-
-def calculate()
+a = int(input("Please enter integer"))
+aa=2 * a
+aaa= 3 * a
+calculate = int(a) + int(aa) + int(aaa)
+print("sum will be" + str(calculate))
 
