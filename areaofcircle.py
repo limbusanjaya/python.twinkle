@@ -1,6 +1,8 @@
-radius = input("Please enter the radius of a circle")
-def areaofcircle(radius):
-    areaofcircle = (22/7) * radius**2
-    print=("Area of circle is" + areaofcircle)
+# Prompt the user to input the radius of the circle
+r = float(input("Input the radius of the circle : "))
 
-def areaofcircle()
+# Calculate the area of the circle using the formula: area = π * r^2
+area = 3.17 * r ** 2
+
+# Display the result, including the radius and calculated area
+print("The area of the circle with radius " + str(r) + " is: " + str(area))
